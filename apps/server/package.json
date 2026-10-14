@@ -1,0 +1,14 @@
+{
+  "name": "@spidereum/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@spidereum/core": "workspace:*",
+    "@spidereum/router": "workspace:*",
+    "@spidereum/swarm": "workspace:*",
+    "@spidereum/venues": "workspace:*"
+  }
+}
