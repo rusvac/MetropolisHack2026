@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <mask id="w">
+      <polygon points="424.1 325.6 325.6 424.1 186.4 424.1 87.9 325.6 87.9 186.4 186.4 87.9 325.6 87.9 424.1 186.4" fill="#fff" stroke="#fff" stroke-width="16" stroke-linejoin="round"/>
+      <g stroke="#000" stroke-width="20" fill="none">
+        <path d="M15.8 156.5L496.2 355.5M156.5 15.8L355.5 496.2M15.8 355.5L496.2 156.5M156.5 496.2L355.5 15.8"/>
+        <polygon points="368.7 302.7 302.7 368.7 209.3 368.7 143.3 302.7 143.3 209.3 209.3 143.3 302.7 143.3 368.7 209.3" stroke-linejoin="round"/>
+      </g>
+      <circle cx="256" cy="256" r="62" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0e0e15"/>
+  <g mask="url(#w)">
+    <rect x="60" y="60" width="392" height="392" fill="#8b7bff"/>
+    <polygon points="368.7 302.7 302.7 368.7 209.3 368.7 143.3 302.7 143.3 209.3 209.3 143.3 302.7 143.3 368.7 209.3" fill="#c4a5ff"/>
+  </g>
+  <circle cx="256" cy="256" r="36" fill="#ececf3"/>
+</svg>

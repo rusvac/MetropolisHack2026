@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#07070b"/><g fill="none" stroke="#8b7bff" stroke-width="2.5" stroke-linecap="round"><circle cx="32" cy="32" r="7"/><circle cx="32" cy="32" r="15" opacity=".7"/><circle cx="32" cy="32" r="23" opacity=".4"/><path d="M32 5v54M5 32h54M13 13l38 38M51 13 13 51" opacity=".55"/></g><circle cx="32" cy="32" r="4" fill="#8b7bff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <mask id="web">
+      <polygon points="424.1 325.6 325.6 424.1 186.4 424.1 87.9 325.6 87.9 186.4 186.4 87.9 325.6 87.9 424.1 186.4" fill="#fff" stroke="#fff" stroke-width="24" stroke-linejoin="round"/>
+      <path d="M15.8 156.5L496.2 355.5M156.5 15.8L355.5 496.2M15.8 355.5L496.2 156.5M156.5 496.2L355.5 15.8" stroke="#000" stroke-width="34"/>
+      <circle cx="256" cy="256" r="104" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0e0e15"/>
+  <rect x="56" y="56" width="400" height="400" fill="#8b7bff" mask="url(#web)"/>
+  <circle cx="256" cy="256" r="62" fill="#ececf3"/>
+</svg>

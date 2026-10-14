@@ -1,3 +1,5 @@
+<img src="assets/logo/spidereum-icon.svg" width="96" alt="Spidereum">
+
 # Spidereum
 
 One intent, many routes. Spidereum splits a trade or a rebalance across Monad venues and a swarm of your own accounts. The split costs less than one big trade, and no single transaction shows your full size.
