@@ -26,8 +26,9 @@ export const AURORA_API_BASE = "https://intents-api.aurora.dev";
 /** the path segment used for the token list when no key is set. the token list answers any key */
 export const AURORA_PUBLIC_KEY_SEGMENT = "public";
 
-/** dry quotes need a recipient and a refund address. no funds move, so a burn address is enough */
-export const DRY_RUN_ADDRESS: Address = "0x000000000000000000000000000000000000dEaD";
+/** dry quotes need a recipient and a refund address. no funds move. aurora rejects burn addresses,
+ * so this is swarm account 99 (m/44'/60'/0'/0/99), an address we own and never send to */
+export const DRY_RUN_ADDRESS: Address = "0x2aC7ae0eD3baCAB425132EA3c8D0d69D07E2030d";
 
 export type BridgeRequest = NonNullable<Intent["bridgeIn"]>;
 
