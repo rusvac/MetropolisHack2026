@@ -6,6 +6,8 @@ One intent, many routes. Spidereum splits a trade or a rebalance across Monad ve
 
 Built for Metropolis, the Monad hackathon, on 13 Oct 2026.
 
+**Videos:** [pitch](https://youtu.be/AiKnI_oyTvQ) · [technical demo](https://youtu.be/xwl-m_npiLY) · [Perpl hedge demo](https://youtu.be/KzJdh6fcVYY)
+
 ## The problem
 
 A big trade pays twice. It pays once in price impact. It pays again because everyone can see the size. Professional desks split their orders across venues and over time for both reasons. One person with one wallet cannot.
@@ -39,7 +41,7 @@ Every number in the app and the terminal says where it comes from.
 | Kuru quotes | live, Monad mainnet order book |
 | Uniswap v4 quotes | live, Monad mainnet Quoter |
 | Perpl hedge quote | live, Perpl mainnet mark price and funding |
-| Aurora Intents bridge quote | live, dry quotes from Aurora's Swap API. Nothing is deposited |
+| Aurora Intents bridge quote | live with `AURORA_API_KEY` set: dry quotes from Aurora's Swap API, and nothing is deposited. Without the key, the quotes are simulated and labelled so |
 | Swaps, hedge, and account funding | live sends on Monad testnet |
 | Bridge from Base Sepolia | built on Circle CCTP V2, not yet sent |
 | The $4,700 portfolio in `bun run demo` | a fixed portfolio, simulated |
@@ -100,3 +102,7 @@ bun run test:live       # tests that read live networks
 ## Built during Metropolis
 
 The idea and a mock prototype existed before 1 Sep 2026. Everything in this repo was written for Metropolis on 13 Oct 2026.
+
+## License
+
+MIT. See `LICENSE`.
