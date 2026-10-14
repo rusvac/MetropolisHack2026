@@ -37,7 +37,7 @@ Every number in the app and the terminal says where it comes from.
 | Kuru quotes | live, Monad mainnet order book |
 | Uniswap v4 quotes | live, Monad mainnet Quoter |
 | Perpl hedge quote | live, Perpl mainnet mark price and funding |
-| Aurora Intents bridge quote | simulated until an API key is set. Prices come from Aurora's live token list |
+| Aurora Intents bridge quote | live, dry quotes from Aurora's Swap API. Nothing is deposited |
 | Swaps, hedge, and account funding | live sends on Monad testnet |
 | Bridge from Base Sepolia | built on Circle CCTP V2, not yet sent |
 | The $4,700 portfolio in `bun run demo` | a fixed portfolio, simulated |
