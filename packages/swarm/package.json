@@ -1,0 +1,10 @@
+{
+  "name": "@spidereum/swarm",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@spidereum/core": "workspace:*",
+    "viem": "^2.57.5"
+  }
+}
