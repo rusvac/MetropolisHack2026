@@ -1,0 +1,22 @@
+{
+  "name": "metropolis-hack-2026",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "check": "tsc --noEmit -p . && bun test $(find ./packages ./apps ./scripts -name '*.test.ts' ! -name '*.live.test.ts' -not -path '*/node_modules/*')",
+    "dev": "bun run --cwd apps/web dev",
+    "demo": "bun run scripts/demo.ts",
+    "swarm:addresses": "bun run packages/swarm/src/addresses.ts",
+    "test:live": "LIVE=1 bun test .live.test",
+    "server": "bun run apps/server/src/index.ts",
+    "demo:onchain": "bun run scripts/demo-onchain.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "typescript": "^7.0.2"
+  }
+}
