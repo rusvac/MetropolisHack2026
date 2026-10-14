@@ -1,0 +1,9 @@
+{
+  "name": "@spidereum/router",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@spidereum/core": "workspace:*"
+  }
+}
